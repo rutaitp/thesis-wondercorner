@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Wonder Corner</title>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+	<script src="libraries/p5.js" type="text/javascript"></script>
+	<script src="libraries/p5.dom.js" type="text/javascript"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="sketch.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div id="heading">
+		<p id="headline"><b>WONDER</b>CORNER</p>
+		<br>
+		<h5 id="subheadline">A safe space for you to wonder about the world</h5>
+	</div>
+	<br>
+
+	<hr id="separation">
+
+	<div class="all-buttons">
+		<form action="/about">
+	    		<input class="button-index" type="submit" value="About" />
+	    </form>
+	    <form action="/questions">
+	    		<input class="button-index" type="submit" value="Questions" />
+	    </form>
+	    <form action="/answers">
+	    		<input class="button-index" type="submit" value="Answers" />
+    	</form>
+    </div>
+
+</body>
+</html>

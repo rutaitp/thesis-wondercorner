@@ -1,0 +1,115 @@
+body {
+	background: #fcfcfc;
+	color: #444;
+}
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+.grid {
+	padding: 10px;
+}
+.grid-item {
+	width: 195px;
+  	margin-bottom: 10px;
+  	padding: 10px;
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+  	font-size: 14pt;
+  	border-radius: 5px;
+  	word-wrap: break-word;
+  	text-align: center;
+}
+form {
+	width: 120px;
+	display: inline;
+	margin-right: 20px;
+}
+.button {
+	width: 100px;
+	display: inline;
+	vertical-align: right;
+	border: transparent;
+	border-radius: 3px;
+	border-color: #fcfcfc;
+	margin: auto;
+	margin-right: 20px;
+	background-color: #fcfcfc;
+	color: rgb(100,100,100);
+	font-size: 16pt;
+	position:relative;
+	font-family: "proxima-nova";
+	font-weight: bold;
+}
+.button:hover {
+    background-color: #444;
+    color: #fcfcfc;
+}
+.button-index {
+	width: 100px;
+	display: inline;
+	vertical-align: center;
+	border: transparent;
+	border-radius: 3px;
+	border-color: #fcfcfc;
+	margin: auto;
+	margin-right: 20px;
+	background-color: #fcfcfc;
+	color: #444;
+	font-size: 16pt;
+	position:relative;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+}
+.button-index:hover {
+    background-color: #444;
+    color: #fcfcfc;
+}
+#heading {
+	width: 700px;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+}
+#headline {
+	margin-top: 30px;
+	font-family: "proxima-nova";
+	font-size: 40pt;
+	display: inline;
+	vertical-align: middle;
+	text-align: center;
+}
+#subheadline {
+	font-family: "proxima-nova";
+	font-size: 20pt;
+	display: inline;
+	vertical-align: middle;
+	text-align: center;
+	color: rgb(150,150,150);
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #b3b3b3;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 3px; /* Rounded corners */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+    font-size: 12pt;
+
+}
+
+#myBtn:hover {
+    background-color: #444; /* Add a dark-grey background on hover */
+}

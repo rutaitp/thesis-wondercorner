@@ -1,0 +1,95 @@
+body {
+	background: #fcfcfc;
+	color: #444;
+}
+
+#heading {
+	width: 1000px;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	margin-top: 7%;
+}
+#headline {
+	margin-top: 30px;
+	font-family: "proxima-nova";
+	font-size: 40pt;
+	display: inline;
+	vertical-align: middle;
+	text-align: justify;
+}
+#subheadline {
+	font-family: "proxima-nova";
+	font-size: 20pt;
+	color: rgb(150,150,150);
+	display: inline;
+	vertical-align: middle;
+	text-align: justify;
+}
+#quote {
+	width: 800px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 16pt;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+#research {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 13pt;
+	width:800px;
+	display: block;
+	vertical-align: middle;
+	text-align: justify;
+	margin: auto;
+	margin-top: 20px;
+}
+#heading-again {
+	width: 800px;
+	vertical-align: middle;
+	text-align: justify;
+	margin: auto;
+	margin-top: 20px;
+}
+#title_again {
+	margin-top: 30px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 13pt;
+	display: inline;
+	vertical-align: middle;
+	text-align: justify;
+}
+#followup {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 13pt;
+	width:800px;
+	display: block;
+	vertical-align: middle;
+	text-align: justify;
+	margin: auto;
+}
+#albert {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 13pt;
+	width:800px;
+	display: block;
+	vertical-align: middle;
+	text-align: justify;
+	margin: auto;
+	margin-top: 20px;
+}
+#end {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+	font-size: 12pt;
+	width:800px;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+}
+a {
+	color: #444;
+}
